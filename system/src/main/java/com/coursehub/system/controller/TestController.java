@@ -1,7 +1,7 @@
 package com.coursehub.system.controller;
 
-import com.coursehub.system.domain.Test;
-import com.coursehub.system.service.TestService;
+import com.coursehub.server.domain.Test;
+import com.coursehub.server.service.TestService;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
