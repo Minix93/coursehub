@@ -8,7 +8,7 @@
               <h1>
                 <i class="ace-icon fa fa-leaf green"></i>
                 <span class="black">Admin Login</span>
-<!--                <span class="white" id="id-text2">Application</span>-->
+                <!--                <span class="white" id="id-text2">Application</span>-->
               </h1>
               <h4 class="blue" id="id-company-text">&copy; CourseHub</h4>
             </div>
@@ -62,7 +62,7 @@
 
                   </div><!-- /.widget-main -->
 
-<!--                  -->
+                  <!--                  -->
                 </div><!-- /.widget-body -->
               </div><!-- /.login-box -->
 
@@ -208,7 +208,6 @@
 <script>
 $('body').attr('class', 'login-layout light-login');
 export default {
-  name: 'App'
+  name: 'login'
 }
 </script>
-
