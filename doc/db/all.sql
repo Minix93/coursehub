@@ -18,3 +18,6 @@ create table `chapter` (
     `name` varchar(50) comment 'name',
     primary key (`id`)
 ) engine=innodb default charset=utf8mb4 comment ='Outline';
+
+insert into `chapter` (id, course_id, name) VALUES ('00000000', '00000000', 'test chapter 1');
+insert into `chapter` (id, course_id, name) VALUES ('00000001', '00000000', 'test chapter 1');
