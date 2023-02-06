@@ -1,0 +1,372 @@
+2022-09-14 15:08:41.017 INFO  com.coursehub.system.config.SystemApplication     :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 41330 (/Users/minix/Documents/Course_content/imooc/course-hub/system/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-14 15:08:41.020 INFO  com.coursehub.system.config.SystemApplication     :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-14 15:08:41.057 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-14 15:08:41.058 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :255  [32m        [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-14 15:08:41.644 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=a50c6064-b7be-31fa-a734-9278defe5008
+2022-09-14 15:08:42.039 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2022-09-14 15:08:42.044 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:08:42.045 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-14 15:08:42.045 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 15:08:42.091 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-14 15:08:42.091 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 1033 ms
+2022-09-14 15:08:42.578 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m        [0;39m LiveReload server is running on port 35729
+2022-09-14 15:08:43.591 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:08:43.624 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2022-09-14 15:08:44.656 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:08:44.702 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-14 15:08:44.748 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2022-09-14 15:08:44.768 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2022-09-14 15:08:44.772 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:08:44.784 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2022-09-14 15:08:44.784 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2022-09-14 15:08:44.784 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2022-09-14 15:08:44.785 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2022-09-14 15:08:44.785 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2022-09-14 15:08:44.785 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2022-09-14 15:08:44.785 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2022-09-14 15:08:45.123 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2022-09-14 15:08:45.125 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2022-09-14 15:08:45.127 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-14 15:08:45.130 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1663193325129 with initial instances count: 0
+2022-09-14 15:08:45.132 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2022-09-14 15:08:45.132 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663193325132, current=UP, previous=STARTING]
+2022-09-14 15:08:45.134 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:08:45.134 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:08:45.150 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2022-09-14 15:08:45.151 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2022-09-14 15:08:45.207 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:08:46.159 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:08:46.173 INFO  com.coursehub.system.config.SystemApplication     :61   [32m        [0;39m Started SystemApplication in 6.489 seconds (JVM running for 7.029)
+2022-09-14 15:08:46.176 INFO  com.coursehub.system.config.SystemApplication     :26   [32m        [0;39m Successfully started!!
+2022-09-14 15:08:46.177 INFO  com.coursehub.system.config.SystemApplication     :27   [32m        [0;39m system address: 	http://127.0.0.1:9001
+2022-09-14 15:08:57.158 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 15:08:57.159 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-14 15:08:57.160 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2022-09-14 15:08:57.207 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-1 - Starting...
+2022-09-14 15:08:57.423 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-1 - Start completed.
+2022-09-14 15:08:57.428 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==>  Preparing: select id, `name` from test 
+2022-09-14 15:08:57.447 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==> Parameters: 
+2022-09-14 15:08:57.465 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==    Columns: id, name
+2022-09-14 15:08:57.465 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==        Row: 1, test
+2022-09-14 15:08:57.466 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==        Row: 2, test2
+2022-09-14 15:08:57.467 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m <==      Total: 2
+2022-09-14 15:09:15.130 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2022-09-14 15:09:15.131 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2022-09-14 15:09:15.131 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2022-09-14 15:09:15.131 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2022-09-14 15:09:15.131 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2022-09-14 15:09:15.132 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2022-09-14 15:09:15.132 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2022-09-14 15:09:15.141 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2022-09-14 15:09:37.450 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:213  [32m        [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-09-14 15:09:37.452 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2022-09-14 15:09:37.453 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663193377453, current=DOWN, previous=UP]
+2022-09-14 15:09:37.453 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:09:37.458 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Pausing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:09:37.458 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2022-09-14 15:09:37.459 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:09:37.459 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-14 15:09:37.461 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m        [0;39m The web application [system] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+2022-09-14 15:09:37.462 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Stopping ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:09:37.464 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Destroying ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:09:37.468 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-1 - Shutdown initiated...
+2022-09-14 15:09:37.475 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-1 - Shutdown completed.
+2022-09-14 15:09:37.476 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2022-09-14 15:09:40.481 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2022-09-14 15:09:40.488 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - deregister  status: 200
+2022-09-14 15:09:40.491 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2022-09-14 15:09:41.636 INFO  com.coursehub.system.config.SystemApplication     :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 41330 (/Users/minix/Documents/Course_content/imooc/course-hub/system/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-14 15:09:41.636 INFO  com.coursehub.system.config.SystemApplication     :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-14 15:09:41.801 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=6de22559-b2ff-3686-8d9e-7d6b252be206
+2022-09-14 15:09:41.846 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2022-09-14 15:09:41.847 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:09:41.847 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-14 15:09:41.847 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 15:09:41.855 INFO  o.a.c.c.C.[Tomcat].[localhost].[/system]          :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-14 15:09:41.855 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 216 ms
+2022-09-14 15:09:41.862 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:591  [32m        [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController' defined in file [/Users/minix/Documents/Course_content/imooc/course-hub/system/target/classes/com/coursehub/system/controller/TestController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.coursehub.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@333fd45b]
+2022-09-14 15:09:41.863 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2022-09-14 15:09:41.869 INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener:136  [32m        [0;39m 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-09-14 15:09:41.892 ERROR org.springframework.boot.SpringApplication        :824  [32m        [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController' defined in file [/Users/minix/Documents/Course_content/imooc/course-hub/system/target/classes/com/coursehub/system/controller/TestController.class]: Post-processing of merged bean definition failed; nested exception is java.lang.IllegalStateException: Failed to introspect Class [com.coursehub.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@333fd45b]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at com.coursehub.system.config.SystemApplication.main(SystemApplication.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.coursehub.system.controller.TestController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@333fd45b]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:743)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:675)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:377)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:358)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Lcom/coursehub/server/service/TestService;
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2611)
+	at java.lang.Class.getDeclaredFields(Class.java:1944)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:738)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.coursehub.server.service.TestService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:352)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+	... 28 common frames omitted
+2022-09-14 15:10:31.716 INFO  com.coursehub.system.config.SystemApplication     :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 41330 (/Users/minix/Documents/Course_content/imooc/course-hub/system/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-14 15:10:31.717 INFO  com.coursehub.system.config.SystemApplication     :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-14 15:10:31.880 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=a50c6064-b7be-31fa-a734-9278defe5008
+2022-09-14 15:10:31.926 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2022-09-14 15:10:31.927 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:10:31.927 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-14 15:10:31.927 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 15:10:31.932 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-14 15:10:31.932 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 213 ms
+2022-09-14 15:10:32.042 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m        [0;39m LiveReload server is running on port 35729
+2022-09-14 15:10:33.053 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:10:33.065 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2022-09-14 15:10:34.083 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:10:34.100 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-14 15:10:34.118 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2022-09-14 15:10:34.119 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2022-09-14 15:10:34.120 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:10:34.124 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2022-09-14 15:10:34.124 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2022-09-14 15:10:34.124 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2022-09-14 15:10:34.124 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2022-09-14 15:10:34.124 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2022-09-14 15:10:34.125 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2022-09-14 15:10:34.125 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2022-09-14 15:10:34.138 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2022-09-14 15:10:34.139 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2022-09-14 15:10:34.140 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-14 15:10:34.141 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1663193434141 with initial instances count: 0
+2022-09-14 15:10:34.142 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2022-09-14 15:10:34.142 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663193434142, current=UP, previous=STARTING]
+2022-09-14 15:10:34.142 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:10:34.143 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:10:34.144 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2022-09-14 15:10:34.145 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2022-09-14 15:10:34.152 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:10:35.150 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:10:35.158 INFO  com.coursehub.system.config.SystemApplication     :61   [32m        [0;39m Started SystemApplication in 4.479 seconds (JVM running for 116.012)
+2022-09-14 15:10:35.160 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2022-09-14 15:10:35.161 INFO  com.coursehub.system.config.SystemApplication     :26   [32m        [0;39m Successfully started!!
+2022-09-14 15:10:35.161 INFO  com.coursehub.system.config.SystemApplication     :27   [32m        [0;39m system address: 	http://127.0.0.1:9001
+2022-09-14 15:10:38.586 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 15:10:38.587 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-14 15:10:38.588 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2022-09-14 15:10:38.592 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-2 - Starting...
+2022-09-14 15:10:38.608 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-2 - Start completed.
+2022-09-14 15:10:38.608 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==>  Preparing: select id, `name` from test order by id asc 
+2022-09-14 15:10:38.609 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==> Parameters: 
+2022-09-14 15:10:38.609 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==    Columns: id, name
+2022-09-14 15:10:38.610 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==        Row: 1, test
+2022-09-14 15:10:38.610 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==        Row: 2, test2
+2022-09-14 15:10:38.610 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m <==      Total: 2
+2022-09-14 15:10:51.009 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:213  [32m        [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2022-09-14 15:10:51.011 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2022-09-14 15:10:51.011 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663193451011, current=DOWN, previous=UP]
+2022-09-14 15:10:51.012 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:10:51.014 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Pausing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:10:51.015 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2022-09-14 15:10:51.015 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-14 15:10:51.017 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:10:51.018 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m        [0;39m The web application [system] appears to have started a thread named [HikariPool-2 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+2022-09-14 15:10:51.018 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Stopping ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:10:51.020 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Destroying ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:10:51.023 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-2 - Shutdown initiated...
+2022-09-14 15:10:51.029 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-2 - Shutdown completed.
+2022-09-14 15:10:51.030 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2022-09-14 15:10:54.035 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2022-09-14 15:10:54.041 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - deregister  status: 200
+2022-09-14 15:10:54.046 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2022-09-14 15:10:55.236 INFO  com.coursehub.system.config.SystemApplication     :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 41330 (/Users/minix/Documents/Course_content/imooc/course-hub/system/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-14 15:10:55.236 INFO  com.coursehub.system.config.SystemApplication     :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-14 15:10:55.392 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=a50c6064-b7be-31fa-a734-9278defe5008
+2022-09-14 15:10:55.433 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2022-09-14 15:10:55.434 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:10:55.434 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-14 15:10:55.434 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 15:10:55.439 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-14 15:10:55.439 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 201 ms
+2022-09-14 15:10:55.539 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m        [0;39m LiveReload server is running on port 35729
+2022-09-14 15:10:56.549 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:10:56.561 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2022-09-14 15:10:57.576 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:10:57.591 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-14 15:10:57.606 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2022-09-14 15:10:57.607 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2022-09-14 15:10:57.607 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:10:57.608 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2022-09-14 15:10:57.608 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2022-09-14 15:10:57.608 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2022-09-14 15:10:57.609 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2022-09-14 15:10:57.609 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2022-09-14 15:10:57.609 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2022-09-14 15:10:57.609 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2022-09-14 15:10:57.621 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2022-09-14 15:10:57.622 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2022-09-14 15:10:57.623 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-14 15:10:57.623 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1663193457623 with initial instances count: 0
+2022-09-14 15:10:57.624 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2022-09-14 15:10:57.624 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663193457624, current=UP, previous=STARTING]
+2022-09-14 15:10:57.625 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:10:57.625 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:10:57.627 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2022-09-14 15:10:57.627 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2022-09-14 15:10:57.633 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:10:58.632 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:10:58.639 INFO  com.coursehub.system.config.SystemApplication     :61   [32m        [0;39m Started SystemApplication in 4.44 seconds (JVM running for 139.493)
+2022-09-14 15:10:58.641 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2022-09-14 15:10:58.641 INFO  com.coursehub.system.config.SystemApplication     :26   [32m        [0;39m Successfully started!!
+2022-09-14 15:10:58.641 INFO  com.coursehub.system.config.SystemApplication     :27   [32m        [0;39m system address: 	http://127.0.0.1:9001
+2022-09-14 15:11:11.637 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 15:11:11.637 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-14 15:11:11.638 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2022-09-14 15:11:11.641 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-3 - Starting...
+2022-09-14 15:11:11.656 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-3 - Start completed.
+2022-09-14 15:11:11.656 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==>  Preparing: select id, `name` from test order by id desc 
+2022-09-14 15:11:11.657 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==> Parameters: 
+2022-09-14 15:11:11.658 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==    Columns: id, name
+2022-09-14 15:11:11.658 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==        Row: 2, test2
+2022-09-14 15:11:11.658 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==        Row: 1, test
+2022-09-14 15:11:11.659 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m <==      Total: 2
+2022-09-14 15:11:27.627 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2022-09-14 15:11:27.628 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2022-09-14 15:11:27.628 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2022-09-14 15:11:27.628 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2022-09-14 15:11:27.628 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2022-09-14 15:11:27.628 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: false
+2022-09-14 15:11:27.629 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2022-09-14 15:11:27.634 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2022-09-14 15:11:45.356 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:213  [32m        [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2022-09-14 15:11:45.357 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2022-09-14 15:11:45.357 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663193505357, current=DOWN, previous=UP]
+2022-09-14 15:11:45.358 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:11:45.360 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Pausing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:11:45.361 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Stopping service [Tomcat]
+2022-09-14 15:11:45.362 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2022-09-14 15:11:45.363 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:11:45.364 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  [32m        [0;39m The web application [system] appears to have started a thread named [HikariPool-3 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ sun.misc.Unsafe.park(Native Method)
+ java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:215)
+ java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:2078)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1093)
+ java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:809)
+ java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1074)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1134)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ java.lang.Thread.run(Thread.java:750)
+2022-09-14 15:11:45.364 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Stopping ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:11:45.366 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Destroying ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:11:45.368 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-3 - Shutdown initiated...
+2022-09-14 15:11:45.373 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-3 - Shutdown completed.
+2022-09-14 15:11:45.374 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2022-09-14 15:11:48.379 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2022-09-14 15:11:48.385 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - deregister  status: 200
+2022-09-14 15:11:48.388 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2022-09-14 15:11:49.547 INFO  com.coursehub.system.config.SystemApplication     :55   [32m        [0;39m Starting SystemApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 41330 (/Users/minix/Documents/Course_content/imooc/course-hub/system/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-14 15:11:49.547 INFO  com.coursehub.system.config.SystemApplication     :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-14 15:11:49.704 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=a50c6064-b7be-31fa-a734-9278defe5008
+2022-09-14 15:11:49.747 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 9001 (http)
+2022-09-14 15:11:49.747 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:11:49.748 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-14 15:11:49.748 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-14 15:11:49.752 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-14 15:11:49.752 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 203 ms
+2022-09-14 15:11:49.852 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m        [0;39m LiveReload server is running on port 35729
+2022-09-14 15:11:50.861 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:11:50.872 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:68   [32m        [0;39m Eureka HTTP Client uses RestTemplate.
+2022-09-14 15:11:51.888 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:11:51.904 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-14 15:11:51.918 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2022-09-14 15:11:51.920 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2022-09-14 15:11:51.920 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:11:51.921 INFO  com.netflix.discovery.DiscoveryClient             :1007 [32m        [0;39m Disable delta property : false
+2022-09-14 15:11:51.921 INFO  com.netflix.discovery.DiscoveryClient             :1008 [32m        [0;39m Single vip registry refresh property : null
+2022-09-14 15:11:51.921 INFO  com.netflix.discovery.DiscoveryClient             :1009 [32m        [0;39m Force full registry fetch : false
+2022-09-14 15:11:51.921 INFO  com.netflix.discovery.DiscoveryClient             :1010 [32m        [0;39m Application is null : false
+2022-09-14 15:11:51.921 INFO  com.netflix.discovery.DiscoveryClient             :1011 [32m        [0;39m Registered Applications size is zero : true
+2022-09-14 15:11:51.921 INFO  com.netflix.discovery.DiscoveryClient             :1013 [32m        [0;39m Application version is -1: true
+2022-09-14 15:11:51.921 INFO  com.netflix.discovery.DiscoveryClient             :1097 [32m        [0;39m Getting all instance registry info from the eureka server
+2022-09-14 15:11:51.933 INFO  com.netflix.discovery.DiscoveryClient             :1106 [32m        [0;39m The response status is 200
+2022-09-14 15:11:51.934 INFO  com.netflix.discovery.DiscoveryClient             :1321 [32m        [0;39m Starting heartbeat executor: renew interval is: 30
+2022-09-14 15:11:51.935 INFO  com.netflix.discovery.InstanceInfoReplicator      :60   [32m        [0;39m InstanceInfoReplicator onDemand update allowed rate per min is 4
+2022-09-14 15:11:51.935 INFO  com.netflix.discovery.DiscoveryClient             :492  [32m        [0;39m Discovery Client initialized at timestamp 1663193511935 with initial instances count: 1
+2022-09-14 15:11:51.936 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application SYSTEM with eureka with status UP
+2022-09-14 15:11:51.936 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663193511936, current=UP, previous=STARTING]
+2022-09-14 15:11:51.937 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:11:51.937 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-9001"]
+2022-09-14 15:11:51.939 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 9001 (http) with context path '/system'
+2022-09-14 15:11:51.939 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 9001
+2022-09-14 15:11:51.945 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:11:52.945 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-14 15:11:52.951 INFO  com.coursehub.system.config.SystemApplication     :61   [32m        [0;39m Started SystemApplication in 4.432 seconds (JVM running for 193.804)
+2022-09-14 15:11:52.952 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m        [0;39m Condition evaluation unchanged
+2022-09-14 15:11:52.953 INFO  com.coursehub.system.config.SystemApplication     :26   [32m        [0;39m Successfully started!!
+2022-09-14 15:11:52.953 INFO  com.coursehub.system.config.SystemApplication     :27   [32m        [0;39m system address: 	http://127.0.0.1:9001
+2022-09-14 15:11:56.624 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/system]        :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-14 15:11:56.625 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-14 15:11:56.626 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2022-09-14 15:11:56.636 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m        [0;39m HikariPool-4 - Starting...
+2022-09-14 15:11:56.649 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m        [0;39m HikariPool-4 - Start completed.
+2022-09-14 15:11:56.650 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==>  Preparing: select id, `name` from test WHERE ( id = ? ) order by id desc 
+2022-09-14 15:11:56.650 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m ==> Parameters: 1(Integer)
+2022-09-14 15:11:56.652 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==    Columns: id, name
+2022-09-14 15:11:56.652 TRACE c.c.server.mapper.TestMapper.selectByExample      :165  [32m        [0;39m <==        Row: 1, test
+2022-09-14 15:11:56.652 DEBUG c.c.server.mapper.TestMapper.selectByExample      :159  [32m        [0;39m <==      Total: 1
+2022-09-14 15:16:51.932 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:21:51.940 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:26:51.946 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:31:51.945 INFO  c.n.d.shared.resolver.aws.ConfigClusterResolver   :43   [32m        [0;39m Resolving eureka endpoints via configuration
+2022-09-14 15:34:59.665 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application SYSTEM with eureka with status DOWN
+2022-09-14 15:34:59.665 INFO  com.netflix.discovery.DiscoveryClient             :1352 [32m        [0;39m Saw local status change event StatusChangeEvent [timestamp=1663194899665, current=DOWN, previous=UP]
+2022-09-14 15:34:59.665 INFO  com.netflix.discovery.DiscoveryClient             :873  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001: registering service...
+2022-09-14 15:34:59.670 INFO  com.netflix.discovery.DiscoveryClient             :882  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - registration status: 204
+2022-09-14 15:34:59.673 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m        [0;39m HikariPool-4 - Shutdown initiated...
+2022-09-14 15:34:59.679 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m        [0;39m HikariPool-4 - Shutdown completed.
+2022-09-14 15:34:59.679 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2022-09-14 15:35:02.683 INFO  com.netflix.discovery.DiscoveryClient             :971  [32m        [0;39m Unregistering ...
+2022-09-14 15:35:02.688 INFO  com.netflix.discovery.DiscoveryClient             :973  [32m        [0;39m DiscoveryClient_SYSTEM/localhost:system:9001 - deregister  status: 200
+2022-09-14 15:35:02.691 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient

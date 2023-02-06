@@ -1,0 +1,168 @@
+2022-09-07 15:32:52.059 INFO  com.coursehub.EurekaApplication                   :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 16034 (/Users/minix/Documents/Course_content/imooc/course-hub/eureka/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-07 15:32:52.062 INFO  com.coursehub.EurekaApplication                   :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-07 15:32:52.817 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=c82d24a3-7f9f-3dfc-abd3-ea80cf089094
+2022-09-07 15:32:52.995 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2022-09-07 15:32:53.001 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2022-09-07 15:32:53.002 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-07 15:32:53.002 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 15:32:53.077 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-07 15:32:53.077 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 982 ms
+2022-09-07 15:32:53.369 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-09-07 15:32:53.429 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2022-09-07 15:32:53.430 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2022-09-07 15:32:53.544 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2022-09-07 15:32:53.545 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2022-09-07 15:32:54.975 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 15:32:56.212 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 15:32:56.219 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2022-09-07 15:32:56.262 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-07 15:32:56.276 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2022-09-07 15:32:56.307 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2022-09-07 15:32:56.307 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2022-09-07 15:32:56.315 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1662589976314 with initial instances count: 0
+2022-09-07 15:32:56.343 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2022-09-07 15:32:56.345 WARN  com.netflix.eureka.cluster.PeerEurekaNodes        :155  [32m        [0;39m The replica size seems to be empty. Check the route 53 DNS Registry
+2022-09-07 15:32:56.356 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2022-09-07 15:32:56.358 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2022-09-07 15:32:56.363 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-07 15:32:56.412 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2022-09-07 15:32:56.414 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2022-09-07 15:32:56.422 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :143  [32m        [0;39m isAws returned false
+2022-09-07 15:32:56.423 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :109  [32m        [0;39m Initialized server context
+2022-09-07 15:32:56.423 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2022-09-07 15:32:56.423 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2022-09-07 15:32:56.423 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2022-09-07 15:32:56.431 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2022-09-07 15:32:56.432 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2022-09-07 15:32:56.432 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2022-09-07 15:32:57.437 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 15:32:57.458 INFO  com.coursehub.EurekaApplication                   :61   [32m        [0;39m Started EurekaApplication in 6.748 seconds (JVM running for 7.369)
+2022-09-07 15:32:57.465 INFO  com.coursehub.EurekaApplication                   :23   [32m        [0;39m Successfully started!!
+2022-09-07 15:32:57.466 INFO  com.coursehub.EurekaApplication                   :24   [32m        [0;39m Eureka address: 	http://127.9.9.1:8761
+2022-09-07 15:32:57.937 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 15:32:57.937 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-07 15:32:57.939 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 2 ms
+2022-09-07 15:33:13.955 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application EUREKA with eureka with status DOWN
+2022-09-07 15:33:13.967 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :83   [32m        [0;39m Shutting down Eureka Server..
+2022-09-07 15:33:13.980 INFO  com.netflix.eureka.DefaultEurekaServerContext     :79   [32m        [0;39m Shutting down ...
+2022-09-07 15:33:13.991 INFO  com.netflix.eureka.DefaultEurekaServerContext     :84   [32m        [0;39m Shut down
+2022-09-07 15:33:13.991 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :93   [32m        [0;39m Eureka Service is now shutdown...
+2022-09-07 15:33:13.991 INFO  com.netflix.eureka.DefaultEurekaServerContext     :79   [32m        [0;39m Shutting down ...
+2022-09-07 15:33:13.995 INFO  com.netflix.eureka.DefaultEurekaServerContext     :84   [32m        [0;39m Shut down
+2022-09-07 15:33:14.001 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2022-09-07 15:33:14.001 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2022-09-07 15:33:34.908 INFO  com.coursehub.EurekaApplication                   :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 16040 (/Users/minix/Documents/Course_content/imooc/course-hub/eureka/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-07 15:33:34.911 INFO  com.coursehub.EurekaApplication                   :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-07 15:33:35.546 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=c82d24a3-7f9f-3dfc-abd3-ea80cf089094
+2022-09-07 15:33:35.691 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2022-09-07 15:33:35.696 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2022-09-07 15:33:35.696 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-07 15:33:35.696 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 15:33:35.760 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-07 15:33:35.760 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 818 ms
+2022-09-07 15:33:36.009 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-09-07 15:33:36.047 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2022-09-07 15:33:36.048 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2022-09-07 15:33:36.172 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2022-09-07 15:33:36.173 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2022-09-07 15:33:37.539 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 15:33:38.735 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 15:33:38.743 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2022-09-07 15:33:38.780 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-07 15:33:38.793 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2022-09-07 15:33:38.811 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2022-09-07 15:33:38.812 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2022-09-07 15:33:38.816 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1662590018815 with initial instances count: 0
+2022-09-07 15:33:38.838 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2022-09-07 15:33:38.839 WARN  com.netflix.eureka.cluster.PeerEurekaNodes        :155  [32m        [0;39m The replica size seems to be empty. Check the route 53 DNS Registry
+2022-09-07 15:33:38.850 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2022-09-07 15:33:38.851 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2022-09-07 15:33:38.856 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-07 15:33:38.905 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2022-09-07 15:33:38.907 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2022-09-07 15:33:38.913 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :143  [32m        [0;39m isAws returned false
+2022-09-07 15:33:38.914 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :109  [32m        [0;39m Initialized server context
+2022-09-07 15:33:38.914 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2022-09-07 15:33:38.914 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2022-09-07 15:33:38.914 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2022-09-07 15:33:38.922 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2022-09-07 15:33:38.923 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2022-09-07 15:33:38.924 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2022-09-07 15:33:39.928 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 15:33:39.948 INFO  com.coursehub.EurekaApplication                   :61   [32m        [0;39m Started EurekaApplication in 6.36 seconds (JVM running for 6.874)
+2022-09-07 15:33:39.954 INFO  com.coursehub.EurekaApplication                   :23   [32m        [0;39m Successfully started!!
+2022-09-07 15:33:39.955 INFO  com.coursehub.EurekaApplication                   :24   [32m        [0;39m Eureka address: 	http://127.0.0.1:8761
+2022-09-07 15:33:40.272 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 15:33:40.272 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-07 15:33:40.273 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 1 ms
+2022-09-07 15:34:36.942 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application EUREKA with eureka with status DOWN
+2022-09-07 15:34:36.950 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :83   [32m        [0;39m Shutting down Eureka Server..
+2022-09-07 15:34:36.955 INFO  com.netflix.eureka.DefaultEurekaServerContext     :79   [32m        [0;39m Shutting down ...
+2022-09-07 15:34:36.962 INFO  com.netflix.eureka.DefaultEurekaServerContext     :84   [32m        [0;39m Shut down
+2022-09-07 15:34:36.962 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :93   [32m        [0;39m Eureka Service is now shutdown...
+2022-09-07 15:34:36.963 INFO  com.netflix.eureka.DefaultEurekaServerContext     :79   [32m        [0;39m Shutting down ...
+2022-09-07 15:34:36.967 INFO  com.netflix.eureka.DefaultEurekaServerContext     :84   [32m        [0;39m Shut down
+2022-09-07 15:34:36.985 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2022-09-07 15:34:36.988 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
+2022-09-07 22:31:56.260 INFO  com.coursehub.EurekaApplication                   :55   [32m        [0;39m Starting EurekaApplication using Java 1.8.0_342 on MacBook-Pro.local with PID 16952 (/Users/minix/Documents/Course_content/imooc/course-hub/eureka/target/classes started by minix in /Users/minix/Documents/Course_content/imooc/course-hub)
+2022-09-07 22:31:56.263 INFO  com.coursehub.EurekaApplication                   :634  [32m        [0;39m No active profile set, falling back to 1 default profile: "default"
+2022-09-07 22:31:56.947 INFO  o.springframework.cloud.context.scope.GenericScope:283  [32m        [0;39m BeanFactory id=c82d24a3-7f9f-3dfc-abd3-ea80cf089094
+2022-09-07 22:31:57.103 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  [32m        [0;39m Tomcat initialized with port(s): 8761 (http)
+2022-09-07 22:31:57.108 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Initializing ProtocolHandler ["http-nio-8761"]
+2022-09-07 22:31:57.109 INFO  org.apache.catalina.core.StandardService          :173  [32m        [0;39m Starting service [Tomcat]
+2022-09-07 22:31:57.109 INFO  org.apache.catalina.core.StandardEngine           :173  [32m        [0;39m Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-07 22:31:57.176 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring embedded WebApplicationContext
+2022-09-07 22:31:57.177 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :292  [32m        [0;39m Root WebApplicationContext: initialization completed in 883 ms
+2022-09-07 22:31:57.462 INFO  c.s.j.server.impl.application.WebApplicationImpl  :815  [32m        [0;39m Initiating Jersey application, version 'Jersey: 1.19.4 05/24/2017 03:20 PM'
+2022-09-07 22:31:57.520 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :70   [32m        [0;39m Using JSON encoding codec LegacyJacksonJson
+2022-09-07 22:31:57.521 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :71   [32m        [0;39m Using JSON decoding codec LegacyJacksonJson
+2022-09-07 22:31:57.632 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :80   [32m        [0;39m Using XML encoding codec XStreamXml
+2022-09-07 22:31:57.632 INFO  c.n.discovery.provider.DiscoveryJerseyProvider    :81   [32m        [0;39m Using XML decoding codec XStreamXml
+2022-09-07 22:31:59.041 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 22:32:00.245 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 22:32:00.253 INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration:87   [32m        [0;39m Eureka HTTP Client uses Jersey
+2022-09-07 22:32:00.293 WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger:82   [32m        [0;39m Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2022-09-07 22:32:00.307 INFO  o.s.cloud.netflix.eureka.InstanceInfoFactory      :67   [32m        [0;39m Setting initial instance status as: STARTING
+2022-09-07 22:32:00.326 INFO  com.netflix.discovery.DiscoveryClient             :372  [32m        [0;39m Initializing Eureka in region us-east-1
+2022-09-07 22:32:00.326 INFO  com.netflix.discovery.DiscoveryClient             :375  [32m        [0;39m Client configured to neither register nor query for data.
+2022-09-07 22:32:00.330 INFO  com.netflix.discovery.DiscoveryClient             :390  [32m        [0;39m Discovery Client initialized at timestamp 1662615120330 with initial instances count: 0
+2022-09-07 22:32:00.357 INFO  com.netflix.eureka.DefaultEurekaServerContext     :66   [32m        [0;39m Initializing ...
+2022-09-07 22:32:00.358 WARN  com.netflix.eureka.cluster.PeerEurekaNodes        :155  [32m        [0;39m The replica size seems to be empty. Check the route 53 DNS Registry
+2022-09-07 22:32:00.369 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:153  [32m        [0;39m Finished initializing remote region registries. All known remote regions: []
+2022-09-07 22:32:00.370 INFO  com.netflix.eureka.DefaultEurekaServerContext     :73   [32m        [0;39m Initialized
+2022-09-07 22:32:00.376 INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver  :58   [32m        [0;39m Exposing 1 endpoint(s) beneath base path '/actuator'
+2022-09-07 22:32:00.422 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :41   [32m        [0;39m Registering application EUREKA with eureka with status UP
+2022-09-07 22:32:00.424 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m        [0;39m Starting ProtocolHandler ["http-nio-8761"]
+2022-09-07 22:32:00.432 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :143  [32m        [0;39m isAws returned false
+2022-09-07 22:32:00.432 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :109  [32m        [0;39m Initialized server context
+2022-09-07 22:32:00.433 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :244  [32m        [0;39m Got 1 instances from neighboring DS node
+2022-09-07 22:32:00.433 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :245  [32m        [0;39m Renew threshold is: 1
+2022-09-07 22:32:00.433 INFO  c.n.eureka.registry.PeerAwareInstanceRegistryImpl :256  [32m        [0;39m Changing status to UP
+2022-09-07 22:32:00.440 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  [32m        [0;39m Tomcat started on port(s): 8761 (http) with context path ''
+2022-09-07 22:32:00.441 INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration         :144  [32m        [0;39m Updating port to 8761
+2022-09-07 22:32:00.441 INFO  o.s.c.n.e.s.EurekaServerInitializerConfiguration  :69   [32m        [0;39m Started Eureka Server
+2022-09-07 22:32:01.448 INFO  org.springframework.cloud.commons.util.InetUtils  :170  [32m        [0;39m Cannot determine local hostname
+2022-09-07 22:32:01.469 INFO  com.coursehub.EurekaApplication                   :61   [32m        [0;39m Started EurekaApplication in 6.527 seconds (JVM running for 7.049)
+2022-09-07 22:32:01.476 INFO  com.coursehub.EurekaApplication                   :23   [32m        [0;39m Successfully started!!
+2022-09-07 22:32:01.476 INFO  com.coursehub.EurekaApplication                   :24   [32m        [0;39m Eureka address: 	http://127.0.0.1:8761
+2022-09-07 22:32:01.598 INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] :173  [32m        [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-09-07 22:32:01.599 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m        [0;39m Initializing Servlet 'dispatcherServlet'
+2022-09-07 22:32:01.601 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m        [0;39m Completed initialization in 2 ms
+2022-09-07 22:32:13.223 WARN  c.netflix.eureka.registry.AbstractInstanceRegistry:360  [32m        [0;39m DS: Registry: lease doesn't exist, registering resource: SYSTEM - localhost:system:9001
+2022-09-07 22:32:13.223 WARN  com.netflix.eureka.resources.InstanceResource     :116  [32m        [0;39m Not Found (Renew): SYSTEM - localhost:system:9001
+2022-09-07 22:32:13.268 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/localhost:system:9001 with status UP (replication=false)
+2022-09-07 22:32:13.268 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/localhost:system:9001 with status UP (replication=false)
+2022-09-07 22:32:34.423 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/localhost:system:9001 with status DOWN (replication=false)
+2022-09-07 22:32:37.443 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:328  [32m        [0;39m Cancelled instance SYSTEM/localhost:system:9001 (replication=false)
+2022-09-07 22:33:00.438 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:1247 [32m        [0;39m Running the evict task with compensationTime 0ms
+2022-09-07 22:33:09.567 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/localhost:system:9001 with status UP (replication=false)
+2022-09-07 22:33:42.122 INFO  c.netflix.eureka.registry.AbstractInstanceRegistry:266  [32m        [0;39m Registered instance SYSTEM/localhost:system:9001 with status DOWN (replication=false)
+2022-09-07 22:33:42.169 INFO  o.s.c.n.e.serviceregistry.EurekaServiceRegistry   :62   [32m        [0;39m Unregistering application EUREKA with eureka with status DOWN
+2022-09-07 22:33:42.177 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :83   [32m        [0;39m Shutting down Eureka Server..
+2022-09-07 22:33:42.181 INFO  com.netflix.eureka.DefaultEurekaServerContext     :79   [32m        [0;39m Shutting down ...
+2022-09-07 22:33:42.188 INFO  com.netflix.eureka.DefaultEurekaServerContext     :84   [32m        [0;39m Shut down
+2022-09-07 22:33:42.189 INFO  o.s.c.netflix.eureka.server.EurekaServerBootstrap :93   [32m        [0;39m Eureka Service is now shutdown...
+2022-09-07 22:33:42.189 INFO  com.netflix.eureka.DefaultEurekaServerContext     :79   [32m        [0;39m Shutting down ...
+2022-09-07 22:33:42.193 INFO  com.netflix.eureka.DefaultEurekaServerContext     :84   [32m        [0;39m Shut down
+2022-09-07 22:33:42.199 INFO  com.netflix.discovery.DiscoveryClient             :935  [32m        [0;39m Shutting down DiscoveryClient ...
+2022-09-07 22:33:42.200 INFO  com.netflix.discovery.DiscoveryClient             :960  [32m        [0;39m Completed shut down of DiscoveryClient
